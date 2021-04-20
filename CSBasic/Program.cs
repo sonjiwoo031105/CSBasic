@@ -6,34 +6,28 @@ namespace CSBasic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(52);
-            //325를 출력합니다.
-            Console.WriteLine(52 + 273);
-            Console.WriteLine(5 + 3 * 2);
-            Console.WriteLine(10 % 5);
-            Console.WriteLine(7 % 3);
 
-            Console.WriteLine(52.273);
-            Console.WriteLine(1.0+2.0);
+            //keyword
+            //int as;
 
-            Console.WriteLine('A');
-            Console.WriteLine('가');
+            //context keyword
+            //var var = "손지우";
+            //식별자 Identifier
+            int alpha;
+            int Alpha;
+            //int break;
+            //int 263;
+            //int has space;
+            // int 😂❤😒;
+            int 한글숫자;
 
-            Console.WriteLine("안녕하세요");
-            Console.WriteLine("한빛\t아카데미");
-            Console.WriteLine("한빛\n아카데미");
-            Console.WriteLine("\"\"\"");
 
-            Console.WriteLine("가나다"+"라마");
+            // inline comment
+            /*
+             * comment
+             */
 
-            Console.WriteLine("안녕하세요"[0]);
-            Console.WriteLine("안녕하세요"[1]);
-            Console.WriteLine("안녕하세요"[3]);
-
-            Console.WriteLine(true);
-            Console.WriteLine(false);
-            Console.WriteLine(!(52 < 273));
-
+            Console.WriteLine("Hello");
         }
     }
 }
