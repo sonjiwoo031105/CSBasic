@@ -27,7 +27,13 @@ namespace CSBasic
              * comment
              */
 
+            //출력
+            Console.Write("개행");
+            Console.Write("입니당\n");
+            Console.WriteLine("");
             Console.WriteLine("Hello");
+
+
         }
     }
 }
