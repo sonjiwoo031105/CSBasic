@@ -4,14 +4,15 @@ namespace CSBasic
 {
     class Program
     {
+        // var 키워드는 지역변수로만 사용 가능.
+        //var var = "손지우";
+        //var something = "blahblah";
         static void Main(string[] args)
         {
 
             //keyword
             //int as;
 
-            //context keyword
-            //var var = "손지우";
             //식별자 Identifier
             int alpha;
             int Alpha;
@@ -175,6 +176,13 @@ namespace CSBasic
             Console.WriteLine(_double.GetType());
             Console.WriteLine(_char.GetType());
             Console.WriteLine(_string.GetType());
+
+            var somea = "마음에 드는 문자열";
+            var someb = 42;
+            var somec = 3.1415962;
+            Console.WriteLine(somea.GetType());
+            Console.WriteLine(someb.GetType());
+            Console.WriteLine(somec.GetType());
 
 
         }
