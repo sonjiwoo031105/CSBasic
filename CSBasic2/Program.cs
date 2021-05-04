@@ -92,7 +92,13 @@ namespace CSBasic2
                     Console.WriteLine("지구에 있는거 맞나요?");
                     break;
             }
-        }
+
+            string input2 = Console.ReadLine();
+            int number = int.Parse(input2);
+
+            Console.WriteLine(number > 0 ? "자연수입니다." : "자연수가 아닙니다.");
+            //Console.WriteLine((number > 0)? a() : b());
+            }
 
         
           
